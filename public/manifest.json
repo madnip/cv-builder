@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI Assistant",
+  "version": "1.0",
+  "description": "An AI extension with Brutal Interviewer & Viral Hook Generator using Google Gemini.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "MOCK_CLIENT_ID.apps.googleusercontent.com",
+    "scopes": ["email", "profile"]
+  }
+}
